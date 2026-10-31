@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fk-parent-key"
+version = "0.1.0"
+description = "Explain why a SQLite foreign key has no eligible parent key."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["sqlite", "foreign-keys", "schema-validation", "indexes", "cli", "continuous-integration"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Database"]
+
+[project.scripts]
+fk-parent-key = "fk_parent_key.cli:main"
+
+[project.urls]
+Repository = "https://github.com/itzjk/fk-parent-key"
+Issues = "https://github.com/itzjk/fk-parent-key/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

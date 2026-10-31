@@ -1,0 +1,10 @@
+SQLite 3.51.0 | report v1
+"child"["code"] FK#0 -> "parent"["code"]: no-eligible-parent-key
+  PK: []; storage=None; applicable=False
+  Parent collation: NOCASE (column COLLATE clause in sqlite_schema.sql)
+  "ux": rejected; unique=True; partial=False; keys=[["code", "BINARY"]]
+    collation-mismatch: Index collation differs from the parent column declaration
+      column NOCASE (column COLLATE clause in sqlite_schema.sql) != index BINARY (PRAGMA index_xinfo.coll)
+  no-eligible-candidate: No primary key or index satisfies this parent-key requirement
+Coverage: 1/1 analyzed; 0 eligible; 1 incompatible; 0 not analyzed
+Schema parent-key eligibility only. Rows and application foreign_keys settings are not checked.

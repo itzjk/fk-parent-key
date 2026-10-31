@@ -1,0 +1,241 @@
+{
+  "sqlite_version": "3.51.0",
+  "cases": {
+    "A": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": [],
+      "insert_null": [],
+      "foreign_key_list(child)": [
+        [
+          0,
+          0,
+          "parent",
+          "code",
+          "code",
+          "NO ACTION",
+          "NO ACTION",
+          "NONE"
+        ]
+      ],
+      "table_xinfo(parent)": [
+        [
+          0,
+          "code",
+          "TEXT",
+          0,
+          null,
+          0,
+          0
+        ]
+      ],
+      "index_list(parent)": [
+        [
+          0,
+          "ux",
+          1,
+          "c",
+          0
+        ]
+      ],
+      "index_xinfo(ux)": [
+        [
+          0,
+          0,
+          "code",
+          0,
+          "BINARY",
+          1
+        ],
+        [
+          1,
+          -1,
+          null,
+          0,
+          "BINARY",
+          0
+        ]
+      ]
+    },
+    "B": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": "foreign key mismatch - \"child\" referencing \"parent\"",
+      "insert_null": "foreign key mismatch - \"child\" referencing \"parent\"",
+      "foreign_key_list(child)": [
+        [
+          0,
+          0,
+          "parent",
+          "code",
+          "code",
+          "NO ACTION",
+          "NO ACTION",
+          "NONE"
+        ]
+      ],
+      "table_xinfo(parent)": [
+        [
+          0,
+          "code",
+          "TEXT",
+          0,
+          null,
+          0,
+          0
+        ]
+      ],
+      "index_list(parent)": [
+        [
+          0,
+          "ux",
+          1,
+          "c",
+          0
+        ]
+      ],
+      "index_xinfo(ux)": [
+        [
+          0,
+          0,
+          "code",
+          0,
+          "BINARY",
+          1
+        ],
+        [
+          1,
+          -1,
+          null,
+          0,
+          "BINARY",
+          0
+        ]
+      ]
+    },
+    "C": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": "foreign key mismatch - \"child\" referencing \"parent\"",
+      "insert_null": "foreign key mismatch - \"child\" referencing \"parent\"",
+      "foreign_key_list(child)": [
+        [
+          0,
+          0,
+          "parent",
+          "code",
+          "code",
+          "NO ACTION",
+          "NO ACTION",
+          "NONE"
+        ]
+      ],
+      "table_xinfo(parent)": [
+        [
+          0,
+          "code",
+          "TEXT",
+          0,
+          null,
+          0,
+          0
+        ]
+      ],
+      "index_list(parent)": [
+        [
+          0,
+          "ux",
+          1,
+          "c",
+          1
+        ]
+      ],
+      "index_xinfo(ux)": [
+        [
+          0,
+          0,
+          "code",
+          0,
+          "BINARY",
+          1
+        ],
+        [
+          1,
+          -1,
+          null,
+          0,
+          "BINARY",
+          0
+        ]
+      ]
+    },
+    "D": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": [],
+      "insert_null": [],
+      "foreign_key_list(child)": [
+        [
+          0,
+          0,
+          "parent",
+          "code",
+          "code",
+          "NO ACTION",
+          "NO ACTION",
+          "NONE"
+        ]
+      ],
+      "table_xinfo(parent)": [
+        [
+          0,
+          "code",
+          "TEXT",
+          0,
+          null,
+          0,
+          0
+        ]
+      ],
+      "index_list(parent)": [
+        [
+          0,
+          "ux",
+          1,
+          "c",
+          0
+        ]
+      ],
+      "index_xinfo(ux)": [
+        [
+          0,
+          0,
+          "code",
+          0,
+          "NOCASE",
+          1
+        ],
+        [
+          1,
+          -1,
+          null,
+          0,
+          "BINARY",
+          0
+        ]
+      ]
+    }
+  }
+}
